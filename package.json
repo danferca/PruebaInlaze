@@ -1,0 +1,15 @@
+{
+  "name": "prueba_inlaze",
+  "version": "1.0.0",
+  "description": "Prueba Inlaze",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Cadena",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.1",
+    "cypress-xpath": "^2.0.1"
+  }
+}
