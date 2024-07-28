@@ -5,15 +5,17 @@ Para ejecutar las pruebas
 
 git clone git@github.com:danferca/PruebaInlaze.git
 
-2. Entrar a la carpeta del proyecto desde VSC(Visual Studio Code) y ejecutar
+2. Entrar a la carpeta del proyecto desde VSC(Visual Studio Code) y ejecutar desde la terminal
 
 npm i
 
-3. Ahora ejecutar
+3. Ahora ejecutar desde la terminal
 
 npx cypress open
 
-NOTA: si las pruebas no corren por el xpath, correr en la consola
+se abrirá el ejecutable de cypress, será necesario elegir e2e y el navegador chrome
+
+NOTA: si las pruebas no corren por el xpath, detener desde la terminal y correr el siguiente comando
 
 	npm install -D cypress-xpath
 	
