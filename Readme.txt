@@ -23,3 +23,7 @@ NOTA: si las pruebas no corren por el xpath, correr en la consola
 
 cypress\e2e\3-prueba-inlaze\pruebaInlaze.cy.js
 
+NOTA: Cada prueba esta dentor una función it, en caso de querer reproducir una sola, se deberá modificar el nombre de la fucnión agregando al 
+      .only inmediatamente despues del it, asi:
+	it.only(....)
+
